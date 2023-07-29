@@ -1,0 +1,23 @@
+{
+  "name": "packagejson",
+  "version": "1.0.0",
+  "description": "About json package",
+  "main": "app.js",
+  "scripts": {
+    "test": "git repository",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.1",
+    "sequelize": "^6.32.1"
+  }
+}
